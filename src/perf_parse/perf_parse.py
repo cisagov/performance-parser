@@ -50,14 +50,14 @@ def parse(in_filename):
                 level = "3 - Achieved Expectations"
                 measures = [x.strip() for x in match.group(1).split(".")][:-1]
                 for m in measures:
-                    results.append((core_comp, level, m, ""))
+                    results.append((core_comp, level, m + ".", ""))
                 continue
             match = ach_excellence_re.match(line)
             if match:
                 level = "5 - Achieved Excellence"
                 measures = [x.strip() for x in match.group(1).split(".")][:-1]
                 for m in measures:
-                    results.append((core_comp, level, m, ""))
+                    results.append((core_comp, level, m + ".", ""))
                 continue
     return results
 
