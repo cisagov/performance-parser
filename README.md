@@ -1,4 +1,4 @@
-# performance-parser #
+# performance-parser 🎭 #
 
 [![Build Status](https://travis-ci.com/cisagov/performance-parser.svg?branch=develop)](https://travis-ci.com/cisagov/performance-parser)
 [![Coverage Status](https://coveralls.io/repos/github/cisagov/performance-parser/badge.svg?branch=develop)](https://coveralls.io/github/cisagov/performance-parser?branch=develop)
@@ -6,13 +6,7 @@
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/cisagov/performance-parser.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/performance-parser/context:python)
 [![Known Vulnerabilities](https://snyk.io/test/github/cisagov/performance-parser/develop/badge.svg)](https://snyk.io/test/github/cisagov/performance-parser)
 
-This is a generic skeleton project that can be used to quickly get a
-new [cisagov](https://github.com/cisagov) Python library GitHub
-project started.  This skeleton project contains [licensing
-information](LICENSE), as well as [pre-commit
-hooks](https://pre-commit.com) and a [Travis
-CI](https://travis-ci.com) configuration appropriate for a Python
-library project.
+Parse DHS performance goals and convert them to a CSV file.
 
 ## Contributing ##
 

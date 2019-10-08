@@ -1,5 +1,5 @@
 """
-This is the setup module for the example project.
+This is the setup module for the perf_parse project.
 
 Based on:
 
@@ -29,10 +29,10 @@ def package_vars(version_file):
 
 
 setup(
-    name="example",
+    name="perf_parse",
     # Versions should comply with PEP440
-    version=package_vars("src/example/_version.py")["__version__"],
-    description="Example python library",
+    version=package_vars("src/perf_parse/_version.py")["__version__"],
+    description="Performance Parser python library",
     long_description=readme(),
     long_description_content_type="text/markdown",
     # NCATS "homepage"
@@ -61,14 +61,14 @@ setup(
         "Programming Language :: Python :: 3.7",
     ],
     # What does your project relate to?
-    keywords="skeleton",
+    keywords="parser",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    package_data={"example": ["data/*.txt"]},
+    package_data={"perf_parse": ["data/*.txt"]},
     py_modules=[splitext(basename(path))[0] for path in glob("src/*.py")],
     include_package_data=True,
     install_requires=["docopt", "setuptools"],
     extras_require={"test": ["pre-commit", "pytest", "pytest-cov", "coveralls"]},
-    # Conveniently allows one to run the CLI tool as `example`
-    entry_points={"console_scripts": ["example = example.example:main"]},
+    # Conveniently allows one to run the CLI tool as `perf_parse`
+    entry_points={"console_scripts": ["perf-parse = perf_parse.perf_parse:main"]},
 )
