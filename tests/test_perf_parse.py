@@ -52,7 +52,12 @@ def test_log_levels(level):
     with patch.object(
         sys,
         "argv",
-        ["bogus", f"--log-level={level}", "forms/307.txt", "/tmp/test.csv"],  # nosec
+        [
+            "bogus",
+            f"--log-level={level}",
+            "forms/fy2019/307.txt",
+            "/tmp/test.csv",  # nosec
+        ],
     ):
         with patch.object(logging.root, "handlers", []):
             assert (
