@@ -1,10 +1,10 @@
-# skeleton-python-library #
+# performance-parser #
 
-[![Build Status](https://travis-ci.com/cisagov/skeleton-python-library.svg?branch=develop)](https://travis-ci.com/cisagov/skeleton-python-library)
-[![Coverage Status](https://coveralls.io/repos/github/cisagov/skeleton-python-library/badge.svg?branch=develop)](https://coveralls.io/github/cisagov/skeleton-python-library?branch=develop)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/cisagov/skeleton-python-library.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/skeleton-python-library/alerts/)
-[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/cisagov/skeleton-python-library.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/skeleton-python-library/context:python)
-[![Known Vulnerabilities](https://snyk.io/test/github/cisagov/skeleton-python-library/develop/badge.svg)](https://snyk.io/test/github/cisagov/skeleton-python-library)
+[![Build Status](https://travis-ci.com/cisagov/performance-parser.svg?branch=develop)](https://travis-ci.com/cisagov/performance-parser)
+[![Coverage Status](https://coveralls.io/repos/github/cisagov/performance-parser/badge.svg?branch=develop)](https://coveralls.io/github/cisagov/performance-parser?branch=develop)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/cisagov/performance-parser.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/performance-parser/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/cisagov/performance-parser.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/performance-parser/context:python)
+[![Known Vulnerabilities](https://snyk.io/test/github/cisagov/performance-parser/develop/badge.svg)](https://snyk.io/test/github/cisagov/performance-parser)
 
 This is a generic skeleton project that can be used to quickly get a
 new [cisagov](https://github.com/cisagov) Python library GitHub
